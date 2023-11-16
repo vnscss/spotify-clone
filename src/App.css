@@ -275,6 +275,90 @@ button.sideBarMidButton:hover{
   background-color: rgb(0, 0, 0);
   width: 100%;
   height: 86px;
-  grid-area: player;
+  display: grid;
+  grid-template-columns: 500px 700px 500px;
 
+}
+
+.imgAlbum{
+  width: 60px;
+  border-radius: 4px;
+  grid-area: icon;
+  margin-left: 15px;
+}
+
+
+.info{
+  color: white;
+  display: grid;
+  grid-template-areas: 
+  'icon titulo like'
+  'icon autor like';
+  grid-template-columns: 75px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
+}
+.info p.titulo{
+  grid-area: titulo;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-top: 24px;
+}
+
+.info p.titulo:hover{
+  text-decoration: underline;
+}
+
+.info p.autor{
+  grid-area: autor;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 14px;
+  margin-bottom: 23px;
+}
+
+.info span.autor1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgb(201, 201, 201);
+}
+
+.info span.autor1:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.info span.autor2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgb(201, 201, 201);
+}
+
+.info span.autor2:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.info button{
+  grid-area: like;
+  width: 17px;
+  margin-right: 90px;
+  background: none;
+  border: none;
+}
+
+
+.info button:hover{
+  transform: scale(1.1);
+}
+
+.info button:active svg{
+  fill: greenyellow;
 }
