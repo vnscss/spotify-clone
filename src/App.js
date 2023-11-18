@@ -55,11 +55,9 @@ function App() {
           
         </div>
       </div>
-
+      
       <div className="mainApp">
         <MainAplication></MainAplication>
-        <NavBar></NavBar>
-        
       </div>
       <div className="margin"></div>
       <div className='player'>
@@ -106,19 +104,24 @@ function Volume(){
 function MainAplication(){
   return(
     <div className='mainAplication'> 
-      <h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1><h1>teste</h1>
+      <NavBar></NavBar>
+      <img src={imgAlbum}></img>
+      <img src={imgAlbum}></img>
+      <img src={imgAlbum}></img>
+      <img src={imgAlbum}></img>
     </div>
   );
 }
 
 function NavBar(){
-  return(
+  return(       
     <div className='navBar'>
-
-      <div>
-        
-      </div>    
-    
+        <button className='navBarAnterior'><span><svg data-encore-id="icon" role="img" aria-hidden="true" class="Svg-sc-ytk21e-0 kgVuXA IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16"><path d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"></path></svg></span></button>
+        <button className='navBarProximo'><span><svg data-encore-id="icon" role="img" aria-hidden="true" class="Svg-sc-ytk21e-0 kgVuXA IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16"><path d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"></path></svg></span></button>
+        <button className='playTitulo'> <svg className='playTitulo' data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 iYxpxA"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></button>
+        <h1 className='titulo'>Titulo</h1>
+        <h1 className='inscrever'>Inscrever-se</h1>
+        <button className='entrar'>Entrar</button>
     </div>
   );
 }
