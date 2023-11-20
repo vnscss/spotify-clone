@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/spotify-clone/static/css/main.40a85ff4.css",
+    "main.js": "/spotify-clone/static/js/main.d01a5769.js",
+    "static/js/787.83e7581c.chunk.js": "/spotify-clone/static/js/787.83e7581c.chunk.js",
+    "static/media/tomodachi.mp3": "/spotify-clone/static/media/tomodachi.faaeaee16bc9b548e852.mp3",
+    "static/media/8cbd9cb5.jpg": "/spotify-clone/static/media/ab67616d0000b273e583d907d88cad338cbd9cb5.da93620778d51b0156d8.jpg",
+    "static/media/Spotify_Logo_RGB_White.png": "/spotify-clone/static/media/Spotify_Logo_RGB_White.f48fb565509bf23854a8.png",
+    "index.html": "/spotify-clone/index.html",
+    "main.40a85ff4.css.map": "/spotify-clone/static/css/main.40a85ff4.css.map",
+    "main.d01a5769.js.map": "/spotify-clone/static/js/main.d01a5769.js.map",
+    "787.83e7581c.chunk.js.map": "/spotify-clone/static/js/787.83e7581c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a85ff4.css",
+    "static/js/main.d01a5769.js"
+  ]
+}
